@@ -5,7 +5,8 @@
  Code is R
  This is mostly hacked out / quick and not fancy in any way.
  To run it you need to change: 
-   (1) the setwd("") to your local directory 
-   (2) Gdir <-"../Graphics"   
+ 
+  (1) the setwd("") to your local directory 
+  (2) Gdir <-"../Graphics"   
   (3) source("Main.PredictR.R")
  
