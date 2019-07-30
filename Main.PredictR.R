@@ -17,14 +17,18 @@
 # change for your setting.  You can copy/paste this line and then
 # source("Main.PredicR.R")
 # to run 
-setwd("/Users/rout/Desktop/Dropbox/2019m6-46892/RCode")
+setwd("./")  # Set this as you like
+# Send graphics/plots to ....
+Gdir <-"./"   #  Graphics printed to local dir
+Aratio <- 1.5 # For my plots (1=square)
+
 
 # usuals
 require("ggplot2")
 require("grid")
-library("dplyr")
-library("reshape2")
-library('RColorBrewer')
+require("dplyr")
+require("reshape2")
+require('RColorBrewer')
 
 # Libraries - specific to this task
 require("MASS")     # for robust regression http://r-statistics.co/Robust-Regression-With-R.html
@@ -33,9 +37,7 @@ require("glmnet")   # for LASSO / ELASTIC NET
 # a few libs for this project
 source("misc_lib.R")
 
-# Send graphics/plots to ....
-Gdir <-"../Graphics"
-Aratio <- 1.5 # For my plots (1=square)
+
 
 
 # Load the data
