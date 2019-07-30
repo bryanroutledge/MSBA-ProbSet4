@@ -8,3 +8,4 @@
    (1) the setwd("") to your local directory 
    (2) Gdir <-"../Graphics"   
   (3) source("Main.PredictR.R")
+ 
